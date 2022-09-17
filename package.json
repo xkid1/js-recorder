@@ -1,10 +1,28 @@
 {
   "name": "js-recorder",
   "version": "1.0.0",
-  "description": "JavaScript audio & video recorder",
-  "main": "index.js",
+  "description": "JavaScript Library audio & video recorder, can be use for WebRTC, React, Vue etc with MP3/WAV/WAV-EX/OGG/WEBM support",
+  "main": "./dist/js-recorder.js",
+  "module": "./dist/js-recorder.js",
+  "keywords": [
+    "js recorder",
+    "javascript recorder",
+    "web audio recorder",
+    "web video recorder",
+    "audio recorder",
+    "video recorder",
+    "media recorder",
+    "webrtc recorder",
+    "recordrtc",
+    "webrtc",
+    "audio recording",
+    "video recording",
+    "audio/video recording"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "tsc --build tsconfig.json",
+    "serve": "tsc --watch -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -15,5 +33,21 @@
   "bugs": {
     "url": "https://github.com/xkid1/js-recorder/issues"
   },
-  "homepage": "https://github.com/xkid1/js-recorder#readme"
+  "homepage": "https://github.com/xkid1/js-recorder#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "tsd": {
+    "directory": "./global.d.ts"
+  },
+  "types": "global.d.ts",
+  "files": [
+    "dist/src/*js",
+    "src",
+    "test",
+    "global.d.ts"
+  ]
 }
