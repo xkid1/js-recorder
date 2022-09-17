@@ -1,0 +1,19 @@
+{
+  "name": "js-recorder",
+  "version": "1.0.0",
+  "description": "JavaScript audio & video recorder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkid1/js-recorder.git"
+  },
+  "author": "Elmer Alluad Jr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xkid1/js-recorder/issues"
+  },
+  "homepage": "https://github.com/xkid1/js-recorder#readme"
+}
