@@ -49,5 +49,12 @@
     "src",
     "test",
     "global.d.ts"
-  ]
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "@types/node": "^18.7.18",
+    "eslint": "^8.23.1",
+    "jest": "^29.0.3",
+    "ts-jest": "^29.0.1"
+  }
 }
