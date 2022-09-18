@@ -29,7 +29,7 @@
         "paths": {
             "~/*": ["./*"]
         },
-        // "rootDirs": [],
+        "rootDirs": [".", "src"],
         // "typeRoots": [],
         "types": ["node", "jest"],
         // "allowUmdGlobalAccess": true,
@@ -46,11 +46,11 @@
         // "declaration": true,
         // "declarationMap": true,
         // "emitDeclarationOnly": true,
-        // "sourceMap": true,
+        "sourceMap": true,
         // "outFile": "./",
         "outDir": "dist",
-        "removeComments": true,
-        "noEmit": true,
+        "removeComments": false,
+        "noEmit": false,
         // "importHelpers": true,
         // "importsNotUsedAsValues": "remove",
         // "downlevelIteration": true,
@@ -61,8 +61,8 @@
         // "emitBOM": true,
         // "newLine": "crlf",
         // "stripInternal": true,
-        "noEmitHelpers": true,
-        "noEmitOnError": true,
+        "noEmitHelpers": false,
+        "noEmitOnError": false,
         // "preserveConstEnums": true,
         // "declarationDir": "./",
         // "preserveValueImports": true,
@@ -96,9 +96,9 @@
         // "allowUnreachableCode": true,
 
         /* Completeness */
-        // "skipDefaultLibCheck": true,
+        "skipDefaultLibCheck": true,
         "skipLibCheck": true
     },
     "include": ["**/*.ts"],
-    "exclude": ["node_modules", "tests/*.ts", "jest.config.ts"]
+    "exclude": ["node_modules", "test/*.ts", "jest.config.ts"]
 }
