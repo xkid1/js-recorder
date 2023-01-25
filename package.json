@@ -2,8 +2,8 @@
   "name": "js-recorder",
   "version": "1.0.0",
   "description": "JavaScript Library audio & video recorder, can be use for WebRTC, React, Vue etc with MP3/WAV/WAV-EX/OGG/WEBM support",
-  "main": "./dist/js-recorder.js",
-  "module": "./dist/js-recorder.js",
+  "main": "./dist/src/Jsrecorder.js",
+  "module": "./dist/src/Jsrecorder.js",
   "keywords": [
     "js recorder",
     "javascript recorder",
@@ -45,10 +45,10 @@
   },
   "types": "global.d.ts",
   "files": [
-    "dist/src/*js",
+    "dist/src/*.js",
     "src",
     "test",
-    "global.d.ts"
+    "types/*.d.ts"
   ],
   "devDependencies": {
     "@types/jest": "^29.0.3",
